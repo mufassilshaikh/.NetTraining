@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWT.Authentication.Server", "JWT.Authentication.Server\JWT.Authentication.Server.csproj", "{AD5DD867-DC85-4F25-8BA5-583074C1BE66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWT.Authentication.Server.Core", "JWT.Authentication.Server.Core\JWT.Authentication.Server.Core.csproj", "{C32AA790-D3C9-4533-BEE5-9F68C7483921}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWT.Authentication.Server.Infrastructure", "JWT.Authentication.Server.Infrastructure\JWT.Authentication.Server.Infrastructure.csproj", "{351432AB-2C99-4562-BB0E-637EE3E86D27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD5DD867-DC85-4F25-8BA5-583074C1BE66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD5DD867-DC85-4F25-8BA5-583074C1BE66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD5DD867-DC85-4F25-8BA5-583074C1BE66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD5DD867-DC85-4F25-8BA5-583074C1BE66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C32AA790-D3C9-4533-BEE5-9F68C7483921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32AA790-D3C9-4533-BEE5-9F68C7483921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32AA790-D3C9-4533-BEE5-9F68C7483921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32AA790-D3C9-4533-BEE5-9F68C7483921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{351432AB-2C99-4562-BB0E-637EE3E86D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351432AB-2C99-4562-BB0E-637EE3E86D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{351432AB-2C99-4562-BB0E-637EE3E86D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{351432AB-2C99-4562-BB0E-637EE3E86D27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9A9D11E-EAF3-4E1E-93C3-3824DEFA84FF}
+	EndGlobalSection
+EndGlobal

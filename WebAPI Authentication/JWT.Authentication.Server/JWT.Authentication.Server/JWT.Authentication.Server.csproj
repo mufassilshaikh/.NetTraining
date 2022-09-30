@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JWT.Authentication.Server.Core\JWT.Authentication.Server.Core.csproj" />
+    <ProjectReference Include="..\JWT.Authentication.Server.Infrastructure\JWT.Authentication.Server.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

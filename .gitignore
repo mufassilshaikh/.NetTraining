@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/WebAPI Authentication/JWT.Authentication.Client/.vs
+/WebAPI Authentication/JWT.Authentication.Client/JWT.Authentication.Client/bin/Debug/net6.0
+/WebAPI Authentication/JWT.Authentication.Client/JWT.Authentication.Client/obj
+/WebAPI Authentication/JWT.Authentication.Server/.vs
+/WebAPI Authentication/JWT.Authentication.Server/JWT.Authentication.Server/bin/Debug/net6.0
+/WebAPI Authentication/JWT.Authentication.Server/JWT.Authentication.Server/obj
+/WebAPI Authentication/JWT.Authentication.Server/JWT.Authentication.Server.Core/bin/Debug/net6.0
+/WebAPI Authentication/JWT.Authentication.Server/JWT.Authentication.Server.Core/obj
+/WebAPI Authentication/JWT.Authentication.Server/JWT.Authentication.Server.Infrastructure/bin/Debug/net6.0
+/WebAPI Authentication/JWT.Authentication.Server/JWT.Authentication.Server.Infrastructure/obj
