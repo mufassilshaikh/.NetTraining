@@ -22,6 +22,7 @@ namespace JWT.Authentication.Server.Infrastructure.Extensions
                          options.UseSqlServer(configuration.GetConnectionString("IdentityDbContext"));
                      });
             #endregion
+
         }
     }
 }

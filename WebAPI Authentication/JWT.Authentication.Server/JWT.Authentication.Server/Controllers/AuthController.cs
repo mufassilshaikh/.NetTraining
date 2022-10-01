@@ -27,7 +27,7 @@ namespace JWT.Authentication.Server.Controllers
 
         [Route("register")]
         [HttpPost]
-        public async Task<ActionResult> Register(UserVm userVm)
+        public async Task<ActionResult> Register([FromBody]UserVm userVm)
         {
             var passwordSalt = GenerateSalt();
             userVm.Password += passwordSalt;
@@ -45,7 +45,7 @@ namespace JWT.Authentication.Server.Controllers
 
         [Route("login")]
         [HttpPost]
-        public async Task<ActionResult> Login(LoginVm userVm)
+        public async Task<ActionResult> Login([FromBody]LoginVm userVm)
         {
             var user = await _userRepository.GetUserDetails(userVm.Email);
             if (user is null)

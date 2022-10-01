@@ -1,0 +1,63 @@
+
+body{
+    background-color: rgb(109 154 196);
+}
+.main{
+    height: 100%;
+}
+.userForm{
+    background-color: white;
+    padding: 50px;
+    width: 400px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+h1{
+    text-align: center;
+}
+.link{
+    padding-top: 10px;
+    text-align: center;
+}
+label{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input{
+    width: 350px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border: solid 1px black;
+    border-radius: 2px;
+}
+
+button{
+    background-color: rgb(238 86 132);
+    color: white;
+    margin-top: 10px;
+    width: 150px;
+    height: 45px;
+    font-size: x-large;
+    position: relative;
+    left: 30%;
+}
+
+.table{
+    margin: 0 auto;
+    width: 25%;
+}
+
+th, td {
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+  }
